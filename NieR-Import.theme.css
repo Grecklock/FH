@@ -26,7 +26,7 @@
   --interactive-normal: var(--color-low);
   --interactive-hover: var(--color-low);
   --interactive-active: var(--color-low);
-  --text-link: var(--color-high);
+  --text-link: var(--color-alert);
   --text-muted: var(--color-low);
   --interactive-muted: var(--color-mid);
   --background-primary: var(--color-high);
