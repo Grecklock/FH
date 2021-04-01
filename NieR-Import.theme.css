@@ -1,6 +1,6 @@
 @keyframes pulsingBackground {
   0% {
-    background-color: var(--color-alert);
+    background-color: var(--color-low);
   }
   20% {
     background-color: var(--color-low);
@@ -26,7 +26,7 @@
   --interactive-normal: var(--color-low);
   --interactive-hover: var(--color-low);
   --interactive-active: var(--color-low);
-  --text-link: var(--color-alert);
+  --text-link: var(--color-high);
   --text-muted: var(--color-low);
   --interactive-muted: var(--color-mid);
   --background-primary: var(--color-high);
