@@ -1,6 +1,6 @@
 @keyframes pulsingBackground {
   0% {
-    background-color: var(--color-low);
+    background-color: var(--color-alert);
   }
   20% {
     background-color: var(--color-low);
