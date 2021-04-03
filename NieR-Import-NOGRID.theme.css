@@ -655,11 +655,11 @@ path[d="M14 8C14 7.44772 13.5523 7 13 7H9.76001L10.3657 3.58738C10.4201 3.28107 
   z-index: 1;
 }
 .wrapper-2jXpOf.modeUnread-1qO3K1 .icon-1DeIlz {
-  color: var(--color-alert);
-  background-color: var(--color-alert);
+  color: var(--color-alert-alt);
+  background-color: var(--color-alert-alt);
 }
 .wrapper-2jXpOf.modeUnread-1qO3K1 .name-23GUGE {
-  color: var(--color-alert);
+  color: var(--color-alert-alt);
 }
 
 .wrapper-2tAnRe {
@@ -733,13 +733,13 @@ path[d="M14 8C14 7.44772 13.5523 7 13 7H9.76001L10.3657 3.58738C10.4201 3.28107 
 .unreadPill-2HyYtt,
 .content-1o0f9g {
   border-radius: 0;
-  background-color: var(--color-alert);
+  background-color: var(--color-alert-alt);
   color: var(--color-high);
 }
 
 .unreadPillCapStroke-7rkHbg {
-  color: var(--color-alert);
-  fill: var(--color-alert);
+  color: var(--color-alert-alt);
+  fill: var(--color-alert-alt);
 }
 
 .blockquoteContainer-U5TVEi .blockquoteDivider-2hH8H6 {
