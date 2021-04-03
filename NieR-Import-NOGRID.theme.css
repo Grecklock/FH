@@ -1220,7 +1220,7 @@ strong {
   background-color: var(--color-alert);
   color: var(--color-high);
 }
- This is what makes the grid
+
 #app-mount:after {
   content: "";
   position: absolute;
