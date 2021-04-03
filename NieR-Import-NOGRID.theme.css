@@ -202,11 +202,11 @@
   background-color: var(--color-low) !important;
   color: var(--color-high) !important;
 }
-
+/* changed from alert */
 .lookOutlined-3sRXeN.colorWhite-rEQuAQ {
   border-radius: 0;
   border-color: transparent;
-  background-color: var(--color-alert);
+  background-color: var(--color-alert-alt);
   color: var(--color-high);
 }
 .lookOutlined-3sRXeN.colorWhite-rEQuAQ:hover, .lookOutlined-3sRXeN.colorWhite-rEQuAQ:active {
@@ -483,7 +483,7 @@
 .iconSize-2tmqqh {
   -webkit-mask: url("https://discord.com/assets/c30220448097b064286a8759a9b6c4af.svg");
           mask: url("https://discord.com/assets/c30220448097b064286a8759a9b6c4af.svg");
-  background: var(--color-alert) !important;
+  background: var(--color-alert-alt) !important; /* changes from alert */
 }
 
 foreignObject[mask="url(#svg-mask-status-dnd)"] .status-1AY8sU {
@@ -548,10 +548,10 @@ path[d="M14 8C14 7.44772 13.5523 7 13 7H9.76001L10.3657 3.58738C10.4201 3.28107 
 .header-2V-4Sw {
   box-shadow: none;
 }
-
+/* changed from alert */
 .unread-1xRYoj {
   color: var(--color-high);
-  background: var(--color-alert);
+  background: var(--color-alert-alt);
   border-radius: 0;
   box-shadow: 3px 3px 0 var(--color-mid);
 }
@@ -1220,7 +1220,7 @@ strong {
   background-color: var(--color-alert);
   color: var(--color-high);
 }
-/*
+/* this is what makes the grid
 #app-mount:after {
   content: "";
   position: absolute;
