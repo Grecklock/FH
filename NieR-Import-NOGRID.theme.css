@@ -922,7 +922,7 @@ path[d="M14 8C14 7.44772 13.5523 7 13 7H9.76001L10.3657 3.58738C10.4201 3.28107 
   color: var(--color-low);
 }
 .theme-dark .invite-18yqGF .textLink-3aPthL {
-  color: var(--color-alert);
+  color: var(--color-alert-alt);
 }
 
 .reaction-1hd86g {
@@ -1217,7 +1217,7 @@ strong {
 }
 
 .botTagRegular-2HEhHi {
-  background-color: var(--color-alert);
+  background-color: var(--color-alert-alt);
   color: var(--color-high);
 }
 /* this is what makes the grid
@@ -1993,7 +1993,7 @@ strong {
   fill: var(--color-low) !important;
 }
 .socialLinks-3jqNFy svg:hover path {
-  fill: var(--color-alert) !important;
+  fill: var(--color-alert-alt) !important;
 }
 
 .theme-dark .payment-xT17Mq,
