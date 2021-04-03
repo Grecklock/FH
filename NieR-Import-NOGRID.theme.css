@@ -1220,7 +1220,7 @@ strong {
   background-color: var(--color-alert);
   color: var(--color-high);
 }
-
+/*
 #app-mount:after {
   content: "";
   position: absolute;
@@ -1230,13 +1230,13 @@ strong {
   height: 100%;
 
   background: url("https://i.ibb.co/Fq9Jt09/Nie-R-Lattice.png");
-  z-index: 0;
+  z-index: -;
   opacity: 0.03;
   -webkit-user-select: none;
           user-select: none;
   pointer-events: none;
 }
-
+*/
 .message-2qnXI6 .role-2irmRk {
   border-radius: 0;
   padding: 4px 0;
