@@ -466,14 +466,15 @@
   color: transparent;
 }
 
-.homeIcon-tEMBK1,
 .tutorialContainer-2sGCg9 .wrapper-25eVIn,
-.tutorialContainer-2sGCg9 .svg-1X37T1 {
+.tutorialContainer-2sGCg9 .svg-1X37T1,
+.tutorialContainer-11ICd5 .wrapper-25eVIn,
+.tutorialContainer-11ICd5 .svg-1X37T1 {
   height: 57px;
   width: 48px;
 }
-
-.tutorialContainer-2sGCg9 .svg-1X37T1 {
+.tutorialContainer-2sGCg9 .svg-1X37T1,
+.tutorialContainer-11ICd5 .svg-1X37T1 {
   animation-name: y-spin;
   animation-duration: 4s;
   animation-timing-function: ease-in-out;
@@ -1078,7 +1079,7 @@ strong {
   background-color: transparent;
 }
 
-.guildSeparator-33mFX6 {
+.guildSeparator-nWMCrR {
   height: 0;
 }
 
@@ -1087,16 +1088,21 @@ strong {
           mask: none;
 }
 
-.homeIcon-FuNwkv {
+.homeIcon-FuNwkv,
+.homeIcon-AaowEC {
   width: 48px;
   height: 56px;
+}
+
+.wrapper-25eVIn > svg > mask {
+  display: none;
 }
 
 .wrapperSimple-19ogV2 {
   border-radius: 0;
 }
 
-.expandedFolderBackground-1cujaW {
+.expandedFolderBackground-3ZDF05 {
   background: var(--color-high);
   border-radius: 0;
   box-shadow: 3px 3px 0 var(--color-mid);
@@ -1351,6 +1357,7 @@ strong {
   transform: scaleX(0);
   transform-origin: left;
   width: 100%;
+  box-shadow: 0 0 2px var(--color-low);
 }
 .container-2Pjhx-.selected-aXhQR6, .container-2Pjhx-:hover {
   color: var(--color-high) !important;
@@ -1366,16 +1373,12 @@ strong {
 .container-2Pjhx-.selected-aXhQR6 .layout-2DM8Md:before, .container-2Pjhx-:hover .layout-2DM8Md:before {
   transform: scaleX(1);
 }
+.container-2Pjhx-.selected-aXhQR6 .avatar-3uk_u9,
 .container-2Pjhx-.selected-aXhQR6 .linkButtonIcon-Mlm5d6,
-.container-2Pjhx-.selected-aXhQR6 .content-3QAtGj, .container-2Pjhx-:hover .linkButtonIcon-Mlm5d6,
+.container-2Pjhx-.selected-aXhQR6 .content-3QAtGj, .container-2Pjhx-:hover .avatar-3uk_u9,
+.container-2Pjhx-:hover .linkButtonIcon-Mlm5d6,
 .container-2Pjhx-:hover .content-3QAtGj {
   z-index: 1;
-}
-.container-2Pjhx-.selected-aXhQR6 .avatar-3uk_u9, .container-2Pjhx-:hover .avatar-3uk_u9 {
-  z-index: 1;
-}
-.container-2Pjhx-.selected-aXhQR6 .avatar-3uk_u9 path, .container-2Pjhx-:hover .avatar-3uk_u9 path {
-  fill: var(--color-high);
 }
 
 .botTagRegular-2HEhHi {
@@ -1390,7 +1393,7 @@ strong {
   left: 0;
   width: 100%;
   height: 100%;
-  background:;
+  background: url("https://i.ibb.co/Fq9Jt09/Nie-R-Lattice.png");
   z-index: 10000;
   opacity: 0.03;
   -webkit-user-select: none;
@@ -2877,6 +2880,7 @@ strong {
   border-radius: 0;
 }
 
+.callContainer-36WRfH,
 .gradientContainer-10lXLB,
 .wrapper-2qzCYF.minimum-28Z35l,
 .wrapper-2qzCYF {
@@ -2969,8 +2973,11 @@ strong {
 .base-PmTxvP,
 .liveLarge-3zs2Zq {
   border-radius: 0;
-  background: var(--color-alert) !important;
   color: var(--color-high);
+}
+
+.iconBadge-1N56q1 {
+  background-color: var(--color-low);
 }
 
 .theme-dark .quickSelectArrow-1QublR {
